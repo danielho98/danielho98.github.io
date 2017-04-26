@@ -1,0 +1,390 @@
+body {	
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	/*background: #edeae5;*/
+}
+
+svg {
+	width: 500px;
+	display: block;
+	margin: auto;
+	padding: 24px;
+	padding-bottom: 160px;
+	margin-top: 72px;
+}
+
+path {
+	stroke-dasharray: 270px;
+	stroke-dashoffset: 270px;
+	animation: dash 3s ease-in-out forwards;
+}
+
+@keyframes dash {
+	to {
+	stroke-dashoffset: 0;
+	opacity: 1;
+	}
+}
+
+.intro {
+	font-size: 32pt;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-bottom: 18px;
+	padding-left: 10px;
+	border-radius: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+.intro2 {
+	font-size: 28pt;
+	margin-left: 30%;
+	padding-bottom: 24px;
+}
+
+#par {
+	margin-top: 64px;
+	margin-left: 32%;
+	font-family: 'Droid Serif', serif;
+	font-size: 16pt;
+	margin-right: 30%;
+	margin-bottom: 96px;
+}
+
+#container {
+	position: static;
+}
+
+#body-container1 {
+	height: 30%;
+	position: relative;
+	cursor: pointer;
+}
+
+#img1 {
+	background: url('hart.jpg');
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#overlay1 {
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 5;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#text1 {
+	z-index: 10;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	font-size: 20pt;
+	font-family: 'Timmana', sans-serif;
+	top: 50%;
+}
+
+#body-container2 {
+	height: 30%;
+	position: relative;
+	cursor: pointer;
+}
+
+#img2 {
+	background: url('sather.jpg');
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#overlay2 {
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 5;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#text2 {
+	z-index: 10;
+	position: absolute;
+	font-size: 20pt;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	font-family: 'Timmana', sans-serif;
+	top: 50%;
+}
+
+#body-container3 {
+	height: 30%;
+	position: relative;
+	cursor: pointer;
+}
+
+#img3 {
+	background: url('proj.jpg');
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#overlay3 {
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 5;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#text3 {
+	z-index: 10;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	font-size: 20pt;
+	font-family: 'Timmana', sans-serif;
+	top: 50%;
+}
+
+#body-container4 {
+	height: 30%;
+	position: relative;
+	cursor: pointer;
+}
+
+#cancel:hover {
+	cursor: pointer;
+}
+
+#img4 {
+	background: url('kbd.jpg');
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#overlay4 {
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 5;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#text4 {
+	z-index: 10;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	font-size: 20pt;
+	font-family: 'Timmana', sans-serif;
+	top: 50%;
+}
+#body-container5 {
+	height: 30%;
+	position: relative;
+	cursor: pointer;
+}
+
+#img5 {
+	background: url('bike.jpg');
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#overlay5 {
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 5;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#text5 {
+	z-index: 10;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	font-size: 20pt;
+	font-family: 'Timmana', sans-serif;
+	top: 50%;
+}
+
+#box-container1 {
+	z-index: 15;
+	height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+    overflow: hidden;
+    top: 0px;
+}
+
+#box-overlay1 {
+	z-index: 20;
+	height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#box-img1 {
+	background: url('hart.jpg');
+	height: 100%;
+	width: 100%;
+	z-index: 16;
+}
+
+#box-text1 {
+	color: white;
+	z-index: 21;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#box-container2 {
+	z-index: 15;
+	height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+    overflow: hidden;
+    top: 0px;
+}
+
+#box-overlay2 {
+	z-index: 20;
+	height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#box-img2 {
+	background: url('hart.jpg');
+	height: 100%;
+	width: 100%;
+	z-index: 16;
+}
+
+#box-text2 {
+	color: white;
+	z-index: 21;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#box-container3 {
+	z-index: 15;
+	height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+    overflow: hidden;
+    top: 0px;
+}
+
+#box-overlay3 {
+	z-index: 20;
+	height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#box-img3 {
+	background: url('hart.jpg');
+	height: 100%;
+	width: 100%;
+	z-index: 16;
+}
+
+#box-text3 {
+	color: white;
+	z-index: 21;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#box-container4 {
+	z-index: 15;
+	height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+    overflow: hidden;
+    top: 0px;
+}
+
+#box-overlay4 {
+	z-index: 20;
+	height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#box-img4 {
+	background: url('hart.jpg');
+	height: 100%;
+	width: 100%;
+	z-index: 16;
+}
+
+#box-text4 {
+	color: white;
+	z-index: 21;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#box-container5 {
+	z-index: 15;
+	height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+    overflow: hidden;
+    top: 0px;
+}
+
+#box-overlay5 {
+	z-index: 20;
+	height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#box-img5 {
+	background: url('hart.jpg');
+	height: 100%;
+	width: 100%;
+	z-index: 16;
+}
+
+#box-text5 {
+	color: white;
+	z-index: 21;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
